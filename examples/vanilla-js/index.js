@@ -55,6 +55,7 @@ function renderBox({ box, label }) {
     const boxElement = document.createElement('div');
     boxElement.className = 'bounding-box';
     Object.assign(boxElement.style, {
+        border: "1px solid",
         borderColor: color,
         left: 100 * xmin + '%',
         top: 100 * ymin + '%',
